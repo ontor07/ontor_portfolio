@@ -1,0 +1,249 @@
+/******
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+ 
+******/
+
+@media screen and (max-width: 1199px) {
+	
+}
+
+
+@media screen and (max-width: 991px) {
+
+	.site-navigation button.navbar-toggler {
+      	background: #212529;
+      	color: #fff;
+      	padding: 8px 15px;
+ }
+
+	.site-navigation ul.navbar-nav li {
+	    margin: 0;
+	    background: #F8FCFF;
+	    padding: 0 20px;
+	    border-bottom: 1px solid #DADADA;
+	}
+
+	.site-navigation ul.navbar-nav li:last-of-type {
+	    border: none;
+	    border-radius: 0 0 10px 10px;
+	}
+
+	.site-navigation .navbar-nav li a {
+		color: #000 !important;
+	}
+
+	.site-navigation ul.navbar-nav li.active a, .site-navigation ul.navbar-nav li:hover a {
+		color: #44b45d !important;
+	}
+
+	.site-navigation button.navbar-toggler:focus {
+	    outline: 0;
+	}
+
+	/* main menu area end here */
+	
+	.image-of-me {
+		display: none;
+	}
+	/* about area end here */
+
+	.client-left-img {
+	    display: none;
+	}
+	/* client area end here */
+	
+	.single-blog {
+	  margin-top: 40px;
+	}
+	/* our blog area end here */
+}
+
+
+@media screen and (max-width: 767px) {
+
+	.intro-content h3 {
+		font-size: 30px;
+	}
+
+	.skills h3 {
+		letter-spacing: 0;
+		font-size: 20px;
+	}
+
+	.hire-content h1 {
+		font-size: 26px;
+	}
+
+	.copyright-content p {
+	  font-size: 12px;
+	}
+}
+
+
+@media screen and (max-width: 575px) {
+
+	.intro-image img {
+    	max-width: 100px;
+	}
+
+	.intro-content h1 {
+	    font-size: 30px;
+	    margin: 15px 0;
+	}
+
+	.intro-content h3 {
+	    font-size: 22px;
+	}
+
+	.intro-btn {
+	    margin-top: 20px;
+	}
+
+	/* page intro section end here */
+	
+	.section-title h2 {
+    	font-size: 30px;
+	}
+
+	.about-content-top h1 {
+	    font-size: 18px;
+	}
+
+	.about-content-top p {
+	    font-size: 14px;
+	}
+
+	.about-content-middle .list-title {
+	    width: 85px;
+	    font-size: 14px;
+	    margin-right: 10px;
+	}
+
+	.about-content-middle ul li span:last-of-type {
+	    font-size: 12px;
+	}
+	
+	.about-of-edu p {
+	    font-size: 12px;
+	}
+	.experience-area {
+	    margin-top: 50px;
+	}
+	.single-edu h1 {
+	    font-size: 16px;
+	}
+
+	.single-edu h3 {
+	    font-size: 14px;
+	}
+
+	.single-experience h1 {
+	    font-size: 16px;
+	}
+
+	.single-experience h3 {
+	    font-size: 14px;
+	}
+
+	/* about area end here */
+	
+	.skills-area .section-title h2 {
+	    font-size: 30px;
+	}
+
+	.skills-area .section-title p {
+	    font-size: 14px;
+	}
+	/* skills area end here */
+
+	.services-area .section-title h2 {
+	    font-size: 20px;
+	}
+
+	.services-area .section-title p {
+		font-size: 9px;
+	}
+
+	.service-content h3 {
+    	font-size: 18px;
+	}
+
+	.service-content p {
+	    font-size: 14px;
+	}
+	/* services area end here */
+
+	.portfolio-area .section-title p {
+	    font-size: 14px;
+	}
+	.container-filter li a {
+    	font-size: 12px;
+	}
+	/* portfolio area end here */
+
+	.hire-content h1 {
+	    font-size: 20px;
+	}
+
+	.hire-content p {
+	    font-size: 12px;
+	}
+
+	.hire-content .hire-me-btn {
+	    font-size: 16px;
+	    padding: 8px 15px;
+	}
+	/* hire me area end here */
+	.client-area-heading h2 {
+	    font-size: 16px;
+	}
+
+	.review-top p {
+	    font-size: 14px;
+	}
+
+	/* testimonial area end here */
+
+	.contact-area .section-title p {
+		font-size: 14px;
+	}
+
+	.single-address {
+	  padding: 20px;
+	}
+
+	.single-address-left p i {
+	  width: 50px;
+	  height: 50px;
+	  line-height: 50px;
+	  font-size: 20px;
+	}
+
+	.single-address-right h4 {
+	  margin: 3px 0;
+	  font-size: 16px;
+	}
+
+	.single-address-right p {
+	  font-size: 14px;
+	}
+
+	.single-address-left {
+	  margin-right: 10px;
+	}
+	/* footer end here */
+}
