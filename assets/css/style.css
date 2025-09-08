@@ -184,7 +184,7 @@ a.navbar-brand span {
 
 .intro-content h1 {
     font-size: 44px;
-    color: #000080;
+    color: #868686;
     font-weight: 700;
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
@@ -198,16 +198,16 @@ a.navbar-brand span {
     font-weight: 700;
 }
 
-/* .intro-content h3 span {
-    color: #fff;
-    background-color: #000080;
-    padding: 0 5px;
-} */
+.intro-content h3 span {
+    color: #FFD700;
+    /* background-color: #000080;
+    padding: 0 5px; */
+}
 
 .intro-btn .hire-me-btn {
     text-transform: uppercase;
     color: #fff;
-    background-color: #e1164c;
+    background-color: #000080;
     padding: 10px 20px;
     display: inline-block;
     border-radius: 20px;
